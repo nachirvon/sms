@@ -38,15 +38,6 @@
     margin-top: 1em;
 }
 
-#change-number-btn {
-    display: block;
-    text-align: center;
-    margin-top: 1em;
-    font-size: 0.9em;
-    text-decoration: none;
-    color: #0073aa;
-}
-
 /* Status Messages */
 .otp-status-message {
     padding: 10px;
@@ -68,4 +59,17 @@
     border-color: #f5c6cb;
     color: #721c24;
     display: block;
+}
+
+/* New Styles for form footer links */
+.otp-form-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+    font-size: 0.9em;
+}
+
+.otp-form-footer a {
+    text-decoration: none;
+    color: #0073aa;
 }
